@@ -42,7 +42,7 @@ function imprimirInformacoes(nomes, idades, coresFavoritas) {
     informacoes.idades[indiceModificar] = novaIdade;
     informacoes.coresFavoritas[indiceModificar] = novaCor;
   } else {
-    console.log("Índice inválido.");
+    console.log("Índice inválido");
   }
   
   // Imprimindo informações após as modificações
